@@ -1,0 +1,25 @@
+{
+  "name": "miles-theme",
+  "displayName": "Miles Theme",
+  "description": "Light and dark Neovim-style themes for VSCode.",
+  "version": "0.0.1",
+  "publisher": "yourname",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Miles Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miles-dark-color-theme.json"
+      },
+      {
+        "label": "Miles Light",
+        "uiTheme": "vs",
+        "path": "./themes/miles-light-color-theme.json"
+      }
+    ]
+  }
+}
